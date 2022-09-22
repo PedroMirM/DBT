@@ -10,3 +10,6 @@ models:
         tests:
             - unique
             - not_null
+      - name: new_field2
+        description: added for tesing purposes
+        
