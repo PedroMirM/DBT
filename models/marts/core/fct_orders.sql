@@ -22,7 +22,8 @@ final as (
         orders.order_id order_id2,
         orders.customer_id,
         orders.order_date,
-        coalesce(order_payments.amount, 0) as amount
+        coalesce(order_payments.amount, 0) as amount,
+        0 as newfield
         
 
     from orders
